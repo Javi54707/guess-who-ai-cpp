@@ -20,31 +20,27 @@ C++ implementation of an automatic player for the "Guess Who?" game using a bina
 ## 📂 Structure
 
 - `src/` – All source files
-- `data/` – Character files (attributes, default dataset)
-- `assets/` – Images used in graphical version
-- `output/` – Saved games or results (optional)
+- `data/` – Character files (attributes, default dataset) and images used in graphical version
 
-## ▶️ How to Compile
+## ▶️ How to Compile and Run
 
 ```bash
-g++ -std=c++11 -o guesswho src/*.cpp
-./guesswho [mode] [data_file_or_random] [images_dir]
+g++ -std=c++11 -o guesswho src/main.cpp
+./guesswho [data_file_path_or_random] [cross_image_path]
 ```
 
-## Example
+## 🧪 Example
 ```bash
 Copiar
 Editar
-./guesswho gui aleatorio assets/
+./guesswho aleatorio
+# Generates a game with randomly generated characters (obviously, it cannot be played in graphic mode, for this mode requires the graphic representation of the characters and the cross image.
 ```
 
-## Parameters:
-`gui` or `text` – Run in graphical or text mode
+## 📌 Parameters:
 `aleatorio` or `path` – Use random character set or load from file
-`assets/` – Directory with character images and default cover
-
-## 🧪 Sample assets
-You may include a few small sample images and a basic attributes file in the assets/ and data/ folders to showcase functionality.
+`cross_path` – Path to the cross image
+If you give only two parameters, it will run on text mode, if you give three parameters, it will run on graphic mode.
 
 ## 🎓 Academic Context
 Created during the 2024/25 academic year for the "Data Structures" course in the Double Degree in Computer Engineering and Mathematics (UGR).
