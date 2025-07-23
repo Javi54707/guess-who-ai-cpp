@@ -1,4 +1,4 @@
-Mujer	Ojos marrones	Ojos azules	Pelo negro	Pelo rubio	Tiene gafas	Nombre personaje	Imagen
+Mujer, Ojos marrones,	Ojos azules,	Pelo negro,	Pelo rubio,	Tiene gafas,	Nombre personaje,	Imagen
 0	1	0	0	1	0	Antonio	datos/caras_graph/Antonio.png
 1	0	1	0	1	0	Josefa	datos/caras_graph/Josefa.png
 1	0	1	0	1	1	Francisca	datos/caras_graph/Francisca.png
