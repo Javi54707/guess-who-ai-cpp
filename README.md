@@ -39,7 +39,9 @@ Generates a game with randomly generated characters (obviously, it cannot be pla
 
 ## 📌 Parameters:
 `aleatorio` or `path` – Use random character set or load from file
+
 `cross_path` – Path to the cross image
+
 If you give only two parameters, it will run on text mode, if you give three parameters, it will run on graphic mode.
 
 ## 🎓 Academic Context
@@ -47,4 +49,5 @@ Created during the 2024/25 academic year for the "Data Structures" course in the
 
 ## 📜 License
 This repository is for academic and portfolio purposes only.
+
 Contact: javier.ortmol@gmail.com
