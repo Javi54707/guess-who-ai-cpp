@@ -34,8 +34,8 @@ g++ -std=c++11 -o guesswho src/main.cpp
 Copiar
 Editar
 ./guesswho aleatorio
-# Generates a game with randomly generated characters (obviously, it cannot be played in graphic mode, for this mode requires the graphic representation of the characters and the cross image.
 ```
+Generates a game with randomly generated characters (obviously, it cannot be played in graphic mode, for this mode requires the graphic representation of the characters and the cross image.
 
 ## 📌 Parameters:
 `aleatorio` or `path` – Use random character set or load from file
