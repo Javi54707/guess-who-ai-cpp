@@ -1,11 +1,31 @@
-Instalar Qt5 versiones mayores o iguales Qt5.10
-Usar el comando en linux como root
-	sudo apt-get install qt5-defaults
+# Guess Who? AI – C++
 
-Dentro de la carpeta quien_es_quien_grafica ejecutar desde la linea de ordenes
-	cmake CMakeLists.txt
-	make 
-Debe crear en  el directorio bin el ejecutable quienesquien. Para ver la modificación grafica ejecutar
-	./bin/quienesquien datos/personajes_graficos.csv datos/Tapada.png
-	
+C++ implementation of an automatic player for the "Guess Who?" game using a binary decision tree. Developed as part of the “Estructuras de Datos” (ED) course at the University of Granada.
 
+## 🎮 Features
+
+- Reads a character-attribute matrix (CSV or predefined format)
+- Builds a binary tree to represent optimal yes/no questions
+- Plays autonomously by asking strategic questions to eliminate characters
+- Includes a console-based graphic mode with face images and cover image
+- Option to provide an existing dataset or generate a random one
+
+## 🛠️ Technologies
+
+- C++
+- File and image handling
+- Terminal-based UI (with ASCII art or images)
+- Binary tree traversal and construction
+
+## 📂 Structure
+
+- `src/` – All source files
+- `data/` – Character files (attributes, default dataset)
+- `assets/` – Images used in graphical version
+- `output/` – Saved games or results (optional)
+
+## ▶️ How to Compile
+
+```bash
+g++ -std=c++11 -o guesswho src/*.cpp
+./guesswho [mode] [data_file_or_random] [images_dir]
